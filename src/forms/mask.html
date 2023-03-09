@@ -1,9 +1,14 @@
 <form>
 	<section>
 		<label for="name"> Nome </label>
-		<input type="text" name="name" autocomplete="name" required />
+		<input data-mask="name" type="text" name="name" autocomplete="name" required />
 	</section>
 	<!--  Adicione o campo aqui 👇 -->
 	
+	<section>
+		<label for="phone"> Telefone</label>
+		<input data-mask="phone" type="tel" type = "text" id="phone">
+	</section>
+
 	<button>Enviar</button>
  </form>
